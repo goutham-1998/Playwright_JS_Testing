@@ -42,7 +42,7 @@ test("Browser Fixture Test Two", async ({ page }) => {
 
 });
 
-test.only("Login Practice - 1",async ({page}) => {
+test("Login Practice - 1",async ({page}) => {
 
     await page.goto("https://rahulshettyacademy.com/client/#/auth/login");
     await page.locator("#userEmail").fill("ggummadipudi@gmail.com");
